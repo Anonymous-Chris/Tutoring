@@ -8,11 +8,8 @@
   },
   "scripts": {
     "start": "node server.js",
-    
-"heroku-postbuild": "cd frontend && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
-    "client": "cd frontend && npm start",
     "server": "nodemon server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+   
   },
   "author": "",
   "license": "ISC",
